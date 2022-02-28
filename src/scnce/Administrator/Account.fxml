@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scnce.Administrator.AccountController">
+   <children>
+      <TextField fx:id="accTypeTextField" layoutX="220.0" layoutY="55.0" />
+      <TextField fx:id="takaTextField" layoutX="222.0" layoutY="211.0" />
+      <TextField fx:id="transTextField" layoutX="222.0" layoutY="93.0" />
+      <TextField fx:id="debitTextField" layoutX="220.0" layoutY="131.0" />
+      <TextField fx:id="crditTextField" layoutX="220.0" layoutY="173.0" />
+      <Button layoutX="291.0" layoutY="249.0" mnemonicParsing="false" onAction="#acccreateButtononClick" prefHeight="26.0" prefWidth="150.0" text="Add Account Details" />
+      <TextArea fx:id="viewAccountList" layoutX="129.0" layoutY="338.0" prefHeight="200.0" prefWidth="578.0" />
+      <Button layoutX="129.0" layoutY="296.0" mnemonicParsing="false" onAction="#viewAccountListOnClick" text="View Added Account Details" />
+      <Button layoutX="832.0" layoutY="33.0" mnemonicParsing="false" onAction="#goBackToAddministrationSceneOnClick" prefHeight="35.0" prefWidth="87.0" text="Back" />
+      <Label layoutX="101.0" layoutY="54.0" prefHeight="26.0" prefWidth="118.0" text="Account Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="172.0" prefHeight="26.0" prefWidth="118.0" text="Credit">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="210.0" prefHeight="26.0" prefWidth="118.0" text="Total Taka">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="130.0" prefHeight="26.0" prefWidth="118.0" text="Debit">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="92.0" prefHeight="26.0" prefWidth="118.0" text="Transaction">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

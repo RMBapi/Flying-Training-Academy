@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scnce.Trainer.noticeController">
+   <children>
+      <Label layoutX="26.0" layoutY="40.0" prefHeight="26.0" prefWidth="108.0" text="Notice Board">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="viewnoticeLabel" alignment="TOP_LEFT" layoutX="26.0" layoutY="144.0" prefHeight="202.0" prefWidth="628.0" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="605.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBackToCadetSceneOnClick" prefHeight="26.0" prefWidth="70.0" text="Back " />
+   </children>
+</AnchorPane>
